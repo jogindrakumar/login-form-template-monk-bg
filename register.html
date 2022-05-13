@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/register.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <title></title>
@@ -15,15 +15,21 @@
 <body>
     <div class="main-container">
         <div class="login-form-container">
-            <h1>LOGIN</h1>
+            <h1>Register</h1>
             <form action="">
                 <div class="email-area">
-                    <input type="email" id="email" required placeholder="type your email" name="email" /><br />
+                    <input type="name" id="name" placeholder=" your name" required name="name" /><br />
+                </div>
+                <div class="email-area">
+                    <input type="email" id="email" placeholder="e-mail" required name="email" /><br />
                 </div>
                 <div class="password-area">
-                    <input type="password" id="password" required placeholder="type your password" name="password" /><br />
+                    <input type="password" id="password" placeholder="password" required name="password" /><br />
                 </div>
-                <button type="submit">Login</button>
+                <div class="password-area">
+                    <input type="password" id="password" placeholder="Re-type password" required name="password" /><br />
+                </div>
+                <button type="submit">Register</button>
             </form>
         </div>
         <footer>

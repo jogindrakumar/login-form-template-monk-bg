@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background: url(../img/monk.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.login-form-container {
+    display: inline-block;
+    margin-top: 10%;
+    border: 2px solid white;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.login-form-container h1 {
+    font-size: 1.8rem;
+    color: coral;
+}
+
+.login-form-container button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    border: 2px solid coral;
+    font-size: 1rem;
+}
+
+.login-form-container button:hover {
+    color: white;
+    background-color: coral;
+}
+
+form {
+    padding: 20px;
+}
+
+form input[type="name"],
+form input[type="email"],
+form input[type="password"] {
+    border: none;
+    border-bottom: 1px solid coral;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    width: 230px;
+}
+
+.password-area {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

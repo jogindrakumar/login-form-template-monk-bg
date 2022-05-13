@@ -3,7 +3,7 @@
 }
 
 .main-container {
-    background: url(monk.png) no-repeat center center fixed;
+    background: url(../img/monk.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
